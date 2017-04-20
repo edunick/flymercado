@@ -120,9 +120,13 @@
 
     <platform name="android">
         <allow-intent href="market:*" />
+        <allow-intent href="http://www.flymercado.com" />
+<allow-intent href="https://www.flymercado.com" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <allow-intent href="http://www.flymercado.com" />
+<allow-intent href="https://www.flymercado.com" />
     </platform>
 </widget>
