@@ -36,7 +36,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');        
         var inAppBrowserbRef;
-        inAppBrowserbRef = window.open('http://www.flymercado.com', '_blank', 'location=no,toolbar=no,zoom=no');
+        inAppBrowserbRef = window.open('https://www.oranfactura.com', '_blank', 'location=no,toolbar=no,zoom=no');
         
          
     },
