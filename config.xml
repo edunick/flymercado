@@ -109,6 +109,7 @@
     <allow-intent href="https://www.flymercado.com/*" />
 -->
 <allow-intent href="http://www.flymercado.com" />
+<allow-intent href="https://www.flymercado.com" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
