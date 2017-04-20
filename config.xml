@@ -102,15 +102,17 @@
     </platform>
     <access origin="http://www.flymercado.com"/>
     <access origin="https://www.flymercado.com"/>
-    <allow-intent href="http://www.flymercado.com" />
-    <allow-intent href="https://www.flymercado.com" />
-
+    
+    <allow-intent href="http://www.flymercado.com/*" />
+    <allow-intent href="https://www.flymercado.com/*" />
+<!--
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+-->
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
