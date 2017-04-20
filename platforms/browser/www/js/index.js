@@ -35,6 +35,8 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+         var url = 'http://www.flymercado.com' // change to whatever you want
+        cordova.InAppBrowser.open(url, '_self', 'location=no');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
